@@ -1,0 +1,34 @@
+.topnotchers {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .topnotchers h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  
+  .topnotchers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .topnotcher {
+    width: 200px;
+    margin: 20px;
+  }
+  
+  .topnotcher img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .topnotcher h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .topnotcher p {
+    font-size: 1.2rem;
+  }

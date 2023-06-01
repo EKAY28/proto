@@ -1,0 +1,66 @@
+.Bookstore {
+    margin-top: 50px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    border-radius: 0;
+  }
+  
+  .card {
+    height: 100%;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-text {
+    height: 60px;
+    overflow: hidden;
+  }
+  
+  .card-footer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .text-muted {
+    font-size: 1.5rem;
+  }
+  
+  .btn-primary {
+    font-size: 1.5rem;
+    border-radius: 0;
+  }
+  
+  .btn-primary:hover {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+  }
+  
+  @media (min-width: 576px) {
+    .card {
+      min-height: 100%;
+    }
+  
+    .card-text {
+      height: 80px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .card-text {
+      height: 100px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .card-text {
+      height: 150px;
+    }
+  }

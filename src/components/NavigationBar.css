@@ -1,0 +1,50 @@
+.navigation-bar {
+    background: rgb(248, 249, 248);
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+
+    z-index: 12;
+
+
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .logo-img {
+    width: 200px;
+    height: 100px;
+    margin-right: 10px;
+    float: left;
+    margin-left: 0;
+  }
+  
+  .logo-title {
+    color: rgb(12, 50, 3);
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .nav-buttons-container {
+    display: flex;
+  }
+  
+  .nav-button {
+    background: none;
+    border: none;
+    color: rgb(12, 50, 3);
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    margin-right: 30px;
+  }
+  
+  .nav-button:last-child {
+    margin-right: 2;
+  }
+
+ 
